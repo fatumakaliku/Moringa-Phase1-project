@@ -1,4 +1,147 @@
-# Phase 1 Project Description
+#  Fatuma Project Description
+PHASE 1 PROJECT
+Using Exploratory Data Analysis (EDA) to Generate Insights for a Business Stakeholder.
+
+# OVERVIEW
+Microsoft Corporation is a multinational technology company  founded by Bill Gates and Paul Allen on April 4, 1975  with a significant influence on the global software and technology industry. Microsoft operates in various domains and offers a wide range of products and services. 
+Here are some key domains and products associated with Microsoft: 
+Microsoft Windows OS  is one of the most well-known products in this domain. 
+Office Productivity Suite with applications like Microsoft Word, Excel, PowerPoint, and Outlook, that are used for personal and business settings.
+Microsoft Azure is Microsoft's cloud computing platform, providing a range of services such as virtual machines, databases, AI, and machine learning tools, as well as infrastructure for building, deploying, and managing applications through Microsoft's global network of data centers.
+Microsoft SQL Server is a popular relational database management system used by businesses for data storage and retrieval.
+ Visual Studio is a widely-used integrated development environment (IDE) for creating applications for Windows, web, cloud, and mobile platforms. GitHub, a platform for hosting and collaborating on software development projects, was acquired by Microsoft in 2018.
+Microsoft produces hardware products like the Surface line of laptops and tablets, Xbox gaming consoles, and accessories.
+ Microsoft owns the search engine Bing and provides online services like Outlook.com and OneDrive for email and cloud storage, respectively.
+
+Responding to the growing trend by major companies producing original video contents, Microsoft corporation seeks to establish its own movie studio. This initiative Is aimed to place Microsoft as a competitor in the digital content market. The establishment of a digital movie studio by Microsoft also aligns with the corporation’s vision to diversify its revenue collection ,expand its influence and leverage its technological expertise .
+
+# BUSINESS UNDERSTANDING
+
+In recent years, the digital content space has undergone much change. There is an increase in the streaming platforms, that has resulted to a diverse consumer habits and the positive impact on tech corporations joining the content production domain and reshaping the industry. In response, Microsoft has identified an opportunity to expand its revenue streams and expand its influence within the digital content market.
+Some of the cons of venturing in this market are :
+The digital content market is competitive with established entities therefore Microsoft must make its content stand out in the saturated space
+The success of Microsoft in the digital content market also depends on the quality they will deliver . For success in this field Microsoft will need to be consistent in producing quality content that resonates with the consumers.
+The dynamic nature of the market as well affects the consumer behavior due to dynamic technologies  therefore continuous innovation and successful adapting of new technologies will help Microsoft to remain competitive in the digital content market. 
+On the pros side 
+Microsoft will be able to diversify their revenue income by monetizing the content, subscriptions and partnerships. This will help Microsoft establish new revenue streams.
+This will also enhance  the brand as it will put Microsoft in the innovative space that resonates with the audiences thus strengthening the brand influence.
+This will also place Microsoft in a postion to contribute to the market share by positioning it as a key player alongside established competitors.
+To help Microsoft solve this problem, I will find out the following :
+How many movies are being made of each genre?
+What genres are the most successful, that is  in terms of audience rating and gross earnings?
+3.    Which genres are most successful in terms of gross  i.e. with the highest gross earnings?
+
+
+The main Objectives are :-
+
+1. To  determine the optimal genre (s) produced for each genre.
+2. To find the genres with highest earnings and highest audience ratings  in the movie market.
+3. To determine Which Genres Are Financially Successful by highest gross earnings.
+
+# DATA UNDERSTANDING
+ ## Data Sources:
+1. The data is sourced from three reputable movie industry datasets: IMDb, The Movie Database, and Box Office Mojo. These sources are known for their reliability in providing movie-related information.
+2. Time Period:
+The data covers the years 2012 and 2018, providing a snapshot of the movie industry during that specific time frame.
+3. Data Types:
+The dataset includes a mix of data types, including numerical and  categorical data.
+Numerical data includes ratings, earnings, and counts.
+Categorical data includes genres and movie titles.
+4. Data Volume:
+The volume of data was varying depending on the specific dataset and source. It includes information on multiple movies produced during the specified time frame.
+5. Data Structure:
+The data is structured in tabular form, typically with rows representing individual movies and columns representing attributes such as titles, genres, ratings, earnings, and release dates.
+6. Data Completeness:
+Data completeness was varying, and some datasets had missing values. Handling missing data was necessary during data preprocessing.
+7. Data Exploration:
+Exploratory Data Analysis (EDA) techniques were used to understand data distributions, identify patterns, and visualize relationships within the data.
+8. Data Relationships:
+The data allowed for the exploration of relationships between variables, such as the relationship between movie genres, ratings, and earnings.
+9. Data Analysis Tools:
+Data analysis tools and libraries, such as Python with Pandas, NumPy, Matplotlib, and Seaborn, were used to explore and analyze the data.
+# DATA ANALYSIS
+
+## Univariate EDA:
+Univariate EDA focused on examining individual variables to understand their distributions, central tendencies, and variability.
+1. Histograms and Distributions:
+Plotted histograms for numerical variables like ratings and earnings to visualize their distributions.
+To observe the shape of the distribution and check for normality.
+2. Frequency Counts:
+Created bar plots for categorical variables like genres and count the frequency of each category.
+To determine the most common genres and their prevalence in the dataset.
+
+# Bivariate EDA:
+Bivariate EDA explores relationships between pairs of variables to uncover patterns and correlations.
+1. Scatter Plots:
+Created scatter plots to examine relationships between numerical variables, such as ratings and earnings.
+Used them to assess whether there is a linear or non-linear relationship between these variables.
+2. Box Plots:
+Constructed box plots to compare the distributions of numerical variables across different categories.
+For example, compare earnings for different genres to identify variations in box office performance.
+3. Correlation Analysis:
+Calculated correlation coefficients to quantify the strength and direction of relationships between numerical variables.
+Visualized correlations using a correlation matrix.
+# Conclusions 
+ Based on the analysis and conclusions drawn from the data used in my analysis, here are some recommendations for Microsoft Corporation as they enter the movie production market:
+
+Microsoft should Consider Investing in Adventure Movies as the data suggests that adventure movies, on average, received high ratings and generated substantial earnings. Microsoft may want to consider producing adventure films as part of their movie lineup.
+
+They should Focus on High-Quality Content, genres like Adventure, Action, Sci-Fi, and Comedy received high average ratings. Microsoft should prioritize creating high-quality content within these genres to attract and retain audiences.
+
+Invest in Sci-Fi and Fantasy Genres as both had  high average ratings and significant earnings per movie. Microsoft may find it lucrative to explore these genres in their film production endeavors.
+
+Action and Adventure genres dominated in terms of total gross earnings. Consider allocating resources to produce movies in these genres, as they have a proven track record of success at the box office.
+
+The analysis is based on data from 2017-2018. Microsoft should continuously monitor market trends and audience preferences to stay up-to-date with changing tastes and adjust their production strategies accordingly.
+
+While the number of adventure movies was relatively low, their quality and earnings were high. Microsoft should prioritize producing fewer high-quality movies rather than flooding the market with a large quantity of films.
+
+Engage with the audience and gather feedback to understand their preferences and expectations. Building a strong relationship with the audience can lead to more successful films.
+
+Consider collaborating with experienced directors, producers, and writers in the industry to leverage their expertise and enhance the quality of movie production.
+
+Develop effective marketing and distribution strategies to ensure that the movies reach their target audience and maximize box office earnings.
+
+While the analysis points to specific genres, it's essential to maintain a diverse portfolio of movie genres to cater to a broad audience. Don't limit to one genre alone.
+
+It's important to note that the movie industry is highly competitive and subject to evolving trends. Microsoft should conduct thorough market research, stay flexible, and adapt to changing market dynamics to increase their chances of success in the movie production business.
+
+
+ # ~ THE END ~ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 You've made it all the way through the first phase of this course - take a minute to celebrate your awesomeness!
 
